@@ -1,12 +1,12 @@
-# async-ticket-broker
+# publisher
 
-# go run booking.go
+COMMAND : go run booking.go <br />
 
-POST : /booking
+POST : /booking <br />
 JSON BODY example : {
 	"username": "acep",
 	"destination": "Jakarta"
-}
+} <br />
 
-# go run notification.go
-
+# consumer
+go run notification.go
